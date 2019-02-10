@@ -21,6 +21,20 @@ namespace calculator
             InitializeComponent();
         }
 
+        private void NumBtn_Click(object sender, EventArgs e)
+        {
+            Button btn = (Button) sender;
+            if (textBox1.Text == "0" || newNumber == true)
+            {
+                textBox1.Text = "0";
+                newNumber = false;
+            }
+            else
+            {
+                textBox1.Text += btn.Text;
+            }
+        }
+
         private void NumBtn0_Click(object sender, EventArgs e)
         {
             if (textBox1.Text == "0" || newNumber == true)
@@ -168,6 +182,25 @@ namespace calculator
                     result /= double.Parse(textBox1.Text);
                     break;
             }
+        }
+
+        private void OperatorBtn_Click(object sender, EventArgs e)
+        {
+            Button btn = (Button)sender;
+            // indi = btn.Text.ToString();
+            if (label1.Text == "")
+            {
+                label1.Text += textBox1.Text + "+";
+                result = double.Parse(textBox1.Text);
+            }
+            else
+            {
+                label1.Text += textBox1.Text + "+";
+                calcul(indi);
+                textBox1.Text = result.ToString();
+            }
+            newNumber = true;
+            indi = '+';
         }
 
         private void PlusBtn_Click(object sender, EventArgs e)

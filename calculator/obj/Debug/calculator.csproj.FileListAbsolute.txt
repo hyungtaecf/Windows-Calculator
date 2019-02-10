@@ -8,3 +8,13 @@ C:\Users\entitys\Desktop\calculator\calculator\obj\Debug\calculator.csproj.Gener
 C:\Users\entitys\Desktop\calculator\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
 C:\Users\entitys\Desktop\calculator\calculator\obj\Debug\calculator.exe
 C:\Users\entitys\Desktop\calculator\calculator\obj\Debug\calculator.pdb
+C:\Users\HTCF\Documents\GitHub\Calculator-for-Windows\calculator\obj\Debug\calculator.exe
+C:\Users\HTCF\Documents\GitHub\Calculator-for-Windows\calculator\obj\Debug\calculator.pdb
+C:\Users\HTCF\Documents\GitHub\Calculator-for-Windows\calculator\bin\Debug\calculator.exe.config
+C:\Users\HTCF\Documents\GitHub\Calculator-for-Windows\calculator\bin\Debug\calculator.exe
+C:\Users\HTCF\Documents\GitHub\Calculator-for-Windows\calculator\bin\Debug\calculator.pdb
+C:\Users\HTCF\Documents\GitHub\Calculator-for-Windows\calculator\obj\Debug\calculator.csprojAssemblyReference.cache
+C:\Users\HTCF\Documents\GitHub\Calculator-for-Windows\calculator\obj\Debug\calculator.Form1.resources
+C:\Users\HTCF\Documents\GitHub\Calculator-for-Windows\calculator\obj\Debug\calculator.Properties.Resources.resources
+C:\Users\HTCF\Documents\GitHub\Calculator-for-Windows\calculator\obj\Debug\calculator.csproj.GenerateResource.cache
+C:\Users\HTCF\Documents\GitHub\Calculator-for-Windows\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
