@@ -52,18 +52,19 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("맑은 고딕", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Font = new System.Drawing.Font("Malgun Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label1.Location = new System.Drawing.Point(14, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 25);
+            this.label1.Size = new System.Drawing.Size(0, 32);
             this.label1.TabIndex = 0;
             // 
             // ClrBtn
             // 
-            this.ClrBtn.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.ClrBtn.Location = new System.Drawing.Point(12, 37);
+            this.ClrBtn.Font = new System.Drawing.Font("Malgun Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.ClrBtn.Location = new System.Drawing.Point(14, 49);
+            this.ClrBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.ClrBtn.Name = "ClrBtn";
-            this.ClrBtn.Size = new System.Drawing.Size(53, 39);
+            this.ClrBtn.Size = new System.Drawing.Size(61, 52);
             this.ClrBtn.TabIndex = 1;
             this.ClrBtn.Text = "C";
             this.ClrBtn.UseVisualStyleBackColor = true;
@@ -71,53 +72,58 @@
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.textBox1.Location = new System.Drawing.Point(75, 39);
+            this.textBox1.Font = new System.Drawing.Font("Malgun Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.textBox1.Location = new System.Drawing.Point(86, 52);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(167, 35);
+            this.textBox1.Size = new System.Drawing.Size(190, 42);
             this.textBox1.TabIndex = 2;
             this.textBox1.Text = "0";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // NumBtn7
             // 
-            this.NumBtn7.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.NumBtn7.Location = new System.Drawing.Point(12, 82);
+            this.NumBtn7.Font = new System.Drawing.Font("Malgun Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.NumBtn7.Location = new System.Drawing.Point(14, 109);
+            this.NumBtn7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NumBtn7.Name = "NumBtn7";
-            this.NumBtn7.Size = new System.Drawing.Size(53, 39);
+            this.NumBtn7.Size = new System.Drawing.Size(61, 52);
             this.NumBtn7.TabIndex = 3;
             this.NumBtn7.Text = "7";
             this.NumBtn7.UseVisualStyleBackColor = true;
-            this.NumBtn7.Click += new System.EventHandler(this.NumBtn7_Click);
+            this.NumBtn7.Click += new System.EventHandler(this.NumBtn_Click);
             // 
             // NumBtn8
             // 
-            this.NumBtn8.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.NumBtn8.Location = new System.Drawing.Point(71, 82);
+            this.NumBtn8.Font = new System.Drawing.Font("Malgun Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.NumBtn8.Location = new System.Drawing.Point(81, 109);
+            this.NumBtn8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NumBtn8.Name = "NumBtn8";
-            this.NumBtn8.Size = new System.Drawing.Size(53, 39);
+            this.NumBtn8.Size = new System.Drawing.Size(61, 52);
             this.NumBtn8.TabIndex = 4;
             this.NumBtn8.Text = "8";
             this.NumBtn8.UseVisualStyleBackColor = true;
-            this.NumBtn8.Click += new System.EventHandler(this.NumBtn8_Click);
+            this.NumBtn8.Click += new System.EventHandler(this.NumBtn_Click);
             // 
             // NumBtn9
             // 
-            this.NumBtn9.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.NumBtn9.Location = new System.Drawing.Point(130, 82);
+            this.NumBtn9.Font = new System.Drawing.Font("Malgun Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.NumBtn9.Location = new System.Drawing.Point(149, 109);
+            this.NumBtn9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NumBtn9.Name = "NumBtn9";
-            this.NumBtn9.Size = new System.Drawing.Size(53, 39);
+            this.NumBtn9.Size = new System.Drawing.Size(61, 52);
             this.NumBtn9.TabIndex = 5;
             this.NumBtn9.Text = "9";
             this.NumBtn9.UseVisualStyleBackColor = true;
-            this.NumBtn9.Click += new System.EventHandler(this.NumBtn9_Click);
+            this.NumBtn9.Click += new System.EventHandler(this.NumBtn_Click);
             // 
             // DivBtn
             // 
-            this.DivBtn.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.DivBtn.Location = new System.Drawing.Point(189, 82);
+            this.DivBtn.Font = new System.Drawing.Font("Malgun Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.DivBtn.Location = new System.Drawing.Point(216, 109);
+            this.DivBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.DivBtn.Name = "DivBtn";
-            this.DivBtn.Size = new System.Drawing.Size(53, 39);
+            this.DivBtn.Size = new System.Drawing.Size(61, 52);
             this.DivBtn.TabIndex = 6;
             this.DivBtn.Text = "/";
             this.DivBtn.UseVisualStyleBackColor = true;
@@ -125,10 +131,11 @@
             // 
             // MultiBtn
             // 
-            this.MultiBtn.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.MultiBtn.Location = new System.Drawing.Point(189, 127);
+            this.MultiBtn.Font = new System.Drawing.Font("Malgun Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.MultiBtn.Location = new System.Drawing.Point(216, 169);
+            this.MultiBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MultiBtn.Name = "MultiBtn";
-            this.MultiBtn.Size = new System.Drawing.Size(53, 39);
+            this.MultiBtn.Size = new System.Drawing.Size(61, 52);
             this.MultiBtn.TabIndex = 10;
             this.MultiBtn.Text = "*";
             this.MultiBtn.UseVisualStyleBackColor = true;
@@ -136,43 +143,47 @@
             // 
             // NumBtn6
             // 
-            this.NumBtn6.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.NumBtn6.Location = new System.Drawing.Point(130, 127);
+            this.NumBtn6.Font = new System.Drawing.Font("Malgun Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.NumBtn6.Location = new System.Drawing.Point(149, 169);
+            this.NumBtn6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NumBtn6.Name = "NumBtn6";
-            this.NumBtn6.Size = new System.Drawing.Size(53, 39);
+            this.NumBtn6.Size = new System.Drawing.Size(61, 52);
             this.NumBtn6.TabIndex = 9;
             this.NumBtn6.Text = "6";
             this.NumBtn6.UseVisualStyleBackColor = true;
-            this.NumBtn6.Click += new System.EventHandler(this.NumBtn6_Click);
+            this.NumBtn6.Click += new System.EventHandler(this.NumBtn_Click);
             // 
             // NumBtn5
             // 
-            this.NumBtn5.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.NumBtn5.Location = new System.Drawing.Point(71, 127);
+            this.NumBtn5.Font = new System.Drawing.Font("Malgun Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.NumBtn5.Location = new System.Drawing.Point(81, 169);
+            this.NumBtn5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NumBtn5.Name = "NumBtn5";
-            this.NumBtn5.Size = new System.Drawing.Size(53, 39);
+            this.NumBtn5.Size = new System.Drawing.Size(61, 52);
             this.NumBtn5.TabIndex = 8;
             this.NumBtn5.Text = "5";
             this.NumBtn5.UseVisualStyleBackColor = true;
-            this.NumBtn5.Click += new System.EventHandler(this.NumBtn5_Click);
+            this.NumBtn5.Click += new System.EventHandler(this.NumBtn_Click);
             // 
             // NumBtn4
             // 
-            this.NumBtn4.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.NumBtn4.Location = new System.Drawing.Point(12, 127);
+            this.NumBtn4.Font = new System.Drawing.Font("Malgun Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.NumBtn4.Location = new System.Drawing.Point(14, 169);
+            this.NumBtn4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NumBtn4.Name = "NumBtn4";
-            this.NumBtn4.Size = new System.Drawing.Size(53, 39);
+            this.NumBtn4.Size = new System.Drawing.Size(61, 52);
             this.NumBtn4.TabIndex = 7;
             this.NumBtn4.Text = "4";
             this.NumBtn4.UseVisualStyleBackColor = true;
-            this.NumBtn4.Click += new System.EventHandler(this.NumBtn4_Click);
+            this.NumBtn4.Click += new System.EventHandler(this.NumBtn_Click);
             // 
             // MinusBtn
             // 
-            this.MinusBtn.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.MinusBtn.Location = new System.Drawing.Point(189, 172);
+            this.MinusBtn.Font = new System.Drawing.Font("Malgun Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.MinusBtn.Location = new System.Drawing.Point(216, 229);
+            this.MinusBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MinusBtn.Name = "MinusBtn";
-            this.MinusBtn.Size = new System.Drawing.Size(53, 39);
+            this.MinusBtn.Size = new System.Drawing.Size(61, 52);
             this.MinusBtn.TabIndex = 14;
             this.MinusBtn.Text = "-";
             this.MinusBtn.UseVisualStyleBackColor = true;
@@ -180,43 +191,47 @@
             // 
             // NumBtn3
             // 
-            this.NumBtn3.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.NumBtn3.Location = new System.Drawing.Point(130, 172);
+            this.NumBtn3.Font = new System.Drawing.Font("Malgun Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.NumBtn3.Location = new System.Drawing.Point(149, 229);
+            this.NumBtn3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NumBtn3.Name = "NumBtn3";
-            this.NumBtn3.Size = new System.Drawing.Size(53, 39);
+            this.NumBtn3.Size = new System.Drawing.Size(61, 52);
             this.NumBtn3.TabIndex = 13;
             this.NumBtn3.Text = "3";
             this.NumBtn3.UseVisualStyleBackColor = true;
-            this.NumBtn3.Click += new System.EventHandler(this.NumBtn3_Click);
+            this.NumBtn3.Click += new System.EventHandler(this.NumBtn_Click);
             // 
             // NumBtn2
             // 
-            this.NumBtn2.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.NumBtn2.Location = new System.Drawing.Point(71, 172);
+            this.NumBtn2.Font = new System.Drawing.Font("Malgun Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.NumBtn2.Location = new System.Drawing.Point(81, 229);
+            this.NumBtn2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NumBtn2.Name = "NumBtn2";
-            this.NumBtn2.Size = new System.Drawing.Size(53, 39);
+            this.NumBtn2.Size = new System.Drawing.Size(61, 52);
             this.NumBtn2.TabIndex = 12;
             this.NumBtn2.Text = "2";
             this.NumBtn2.UseVisualStyleBackColor = true;
-            this.NumBtn2.Click += new System.EventHandler(this.NumBtn2_Click);
+            this.NumBtn2.Click += new System.EventHandler(this.NumBtn_Click);
             // 
             // NumBtn1
             // 
-            this.NumBtn1.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.NumBtn1.Location = new System.Drawing.Point(12, 172);
+            this.NumBtn1.Font = new System.Drawing.Font("Malgun Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.NumBtn1.Location = new System.Drawing.Point(14, 229);
+            this.NumBtn1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NumBtn1.Name = "NumBtn1";
-            this.NumBtn1.Size = new System.Drawing.Size(53, 39);
+            this.NumBtn1.Size = new System.Drawing.Size(61, 52);
             this.NumBtn1.TabIndex = 11;
             this.NumBtn1.Text = "1";
             this.NumBtn1.UseVisualStyleBackColor = true;
-            this.NumBtn1.Click += new System.EventHandler(this.NumBtn1_Click);
+            this.NumBtn1.Click += new System.EventHandler(this.NumBtn_Click);
             // 
             // PlusBtn
             // 
-            this.PlusBtn.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.PlusBtn.Location = new System.Drawing.Point(189, 217);
+            this.PlusBtn.Font = new System.Drawing.Font("Malgun Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.PlusBtn.Location = new System.Drawing.Point(216, 289);
+            this.PlusBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.PlusBtn.Name = "PlusBtn";
-            this.PlusBtn.Size = new System.Drawing.Size(53, 39);
+            this.PlusBtn.Size = new System.Drawing.Size(61, 52);
             this.PlusBtn.TabIndex = 18;
             this.PlusBtn.Text = "+";
             this.PlusBtn.UseVisualStyleBackColor = true;
@@ -224,10 +239,11 @@
             // 
             // CalBtn
             // 
-            this.CalBtn.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.CalBtn.Location = new System.Drawing.Point(130, 217);
+            this.CalBtn.Font = new System.Drawing.Font("Malgun Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.CalBtn.Location = new System.Drawing.Point(149, 289);
+            this.CalBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.CalBtn.Name = "CalBtn";
-            this.CalBtn.Size = new System.Drawing.Size(53, 39);
+            this.CalBtn.Size = new System.Drawing.Size(61, 52);
             this.CalBtn.TabIndex = 17;
             this.CalBtn.Text = "=";
             this.CalBtn.UseVisualStyleBackColor = true;
@@ -235,10 +251,11 @@
             // 
             // DotBtn
             // 
-            this.DotBtn.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.DotBtn.Location = new System.Drawing.Point(71, 217);
+            this.DotBtn.Font = new System.Drawing.Font("Malgun Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.DotBtn.Location = new System.Drawing.Point(81, 289);
+            this.DotBtn.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.DotBtn.Name = "DotBtn";
-            this.DotBtn.Size = new System.Drawing.Size(53, 39);
+            this.DotBtn.Size = new System.Drawing.Size(61, 52);
             this.DotBtn.TabIndex = 16;
             this.DotBtn.Text = ".";
             this.DotBtn.UseVisualStyleBackColor = true;
@@ -246,20 +263,21 @@
             // 
             // NumBtn0
             // 
-            this.NumBtn0.Font = new System.Drawing.Font("맑은 고딕", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.NumBtn0.Location = new System.Drawing.Point(12, 217);
+            this.NumBtn0.Font = new System.Drawing.Font("Malgun Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.NumBtn0.Location = new System.Drawing.Point(14, 289);
+            this.NumBtn0.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.NumBtn0.Name = "NumBtn0";
-            this.NumBtn0.Size = new System.Drawing.Size(53, 39);
+            this.NumBtn0.Size = new System.Drawing.Size(61, 52);
             this.NumBtn0.TabIndex = 15;
             this.NumBtn0.Text = "0";
             this.NumBtn0.UseVisualStyleBackColor = true;
-            this.NumBtn0.Click += new System.EventHandler(this.NumBtn0_Click);
+            this.NumBtn0.Click += new System.EventHandler(this.NumBtn_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(258, 270);
+            this.ClientSize = new System.Drawing.Size(295, 360);
             this.Controls.Add(this.PlusBtn);
             this.Controls.Add(this.CalBtn);
             this.Controls.Add(this.DotBtn);
@@ -279,6 +297,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.ClrBtn);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "계산기";
             this.ResumeLayout(false);

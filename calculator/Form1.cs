@@ -24,144 +24,14 @@ namespace calculator
         private void NumBtn_Click(object sender, EventArgs e)
         {
             Button btn = (Button) sender;
-            if (textBox1.Text == "0" || newNumber == true)
+            if (textBox1.Text.ToString() == "0" || newNumber == true)
             {
-                textBox1.Text = "0";
+                textBox1.Text = btn.Text.ToString();
                 newNumber = false;
             }
             else
             {
-                textBox1.Text += btn.Text;
-            }
-        }
-
-        private void NumBtn0_Click(object sender, EventArgs e)
-        {
-            if (textBox1.Text == "0" || newNumber == true)
-            {
-                textBox1.Text = "0";
-                newNumber = false;
-            }
-            else
-            {
-                textBox1.Text += "0";
-            }
-        }
-
-        private void NumBtn1_Click(object sender, EventArgs e)
-        {
-            if (textBox1.Text == "0" || newNumber == true)
-            {
-                textBox1.Text = "1";
-                newNumber = false;
-            }
-            else
-            {
-                textBox1.Text += "1";
-            }
-        }
-
-        private void NumBtn2_Click(object sender, EventArgs e)
-        {
-            if (textBox1.Text == "0" || newNumber == true)
-            {
-                textBox1.Text = "2";
-                newNumber = false;
-            }
-            else
-            {
-                textBox1.Text += "2";
-            }
-        }
-
-        private void NumBtn3_Click(object sender, EventArgs e)
-        {
-            if (textBox1.Text == "0" || newNumber == true)
-            {
-                textBox1.Text = "3";
-                newNumber = false;
-            }
-            else
-            {
-                textBox1.Text += "3";
-            }
-        }
-
-        private void NumBtn4_Click(object sender, EventArgs e)
-        {
-            if (textBox1.Text == "0" || newNumber == true)
-            {
-                textBox1.Text = "4";
-                newNumber = false;
-            }
-            else
-            {
-                textBox1.Text += "4";
-            }
-        }
-
-        private void NumBtn5_Click(object sender, EventArgs e)
-        {
-            if (textBox1.Text == "0" || newNumber == true)
-            {
-                textBox1.Text = "5";
-                newNumber = false;
-            }
-            else
-            {
-                textBox1.Text += "5";
-            }
-        }
-
-        private void NumBtn6_Click(object sender, EventArgs e)
-        {
-            if (textBox1.Text == "0" || newNumber == true)
-            {
-                textBox1.Text = "6";
-                newNumber = false;
-            }
-            else
-            {
-                textBox1.Text += "6";
-            }
-        }
-
-        private void NumBtn7_Click(object sender, EventArgs e)
-        {
-            if (textBox1.Text == "0" || newNumber == true)
-            {
-                textBox1.Text = "7";
-                newNumber = false;
-            }
-            else
-            {
-                textBox1.Text += "7";
-            }
-        }
-
-        private void NumBtn8_Click(object sender, EventArgs e)
-        {
-            if (textBox1.Text == "0" || newNumber == true)
-            {
-                textBox1.Text = "8";
-                newNumber = false;
-            }
-            else
-            {
-                textBox1.Text += "8";
-            }
-        }
-
-        private void NumBtn9_Click(object sender, EventArgs e)
-        {
-            if (textBox1.Text == "0" || newNumber == true)
-            {
-                textBox1.Text = "9";
-                newNumber = false;
-            }
-            else
-            {
-                textBox1.Text += "9";
+                textBox1.Text += btn.Text.ToString();
             }
         }
 
